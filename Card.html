@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Card</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #c1c1c1;
+    padding: 45px;
+    display: flex
+  }
+
+  .card {
+    height: 550px;
+    width: 310px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: 10px;
+  }
+
+  .card-image {
+    border-radius: 20px;
+    height: 240px;
+    width: 310px;
+  }
+
+  .tag {
+    border: 2px solid rgb(160, 160, 160);
+    padding: 3px;
+    border-radius: 14px;
+    font-family: "Poppins", serif;
+    font-size: 13px;
+  }
+
+  .read-more {
+    text-align: center;
+  }
+
+  .read-more:hover {
+    background-color: #dbeafe;
+  }
+
+  .card-content {
+    margin: 10px;
+  }
+
+  .card-title {
+    color: #111827;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    font-family: "Open Sans", serif;
+  }
+
+  .card-description {
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .button button {
+    background-color: #c2e1ff;
+    color: #3b82f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+  }
+
+  .button button:hover {
+    background-color: #e6ecff;
+  }
+</style>
+
+<body>
+  <div class="card">
+    <img
+      src="mountain-countryside-landscape-at-sunset-dramatic-sky-over-a-distant-valley-green-fields-and-trees-on-hill-beautiful-natural-landscapes-of-the-carpathians-generative-ai-variation-5-photo.jpeg"
+      alt="Mountain" class="card-image" />
+    <div class="card-content">
+      <div class="tags">
+        <span class="tag">Nature</span>
+        <span class="tag">Sunset</span>
+      </div>
+      <h2 class="card-title">Golden Sunset Over Rolling Hills</h4>
+        <p class="card-description">
+          A breathtaking landscape showcasing a serene countryside at sunset. The
+          sun casts golden rays over lush green fields and scattered trees, with a
+          backdrop of distant mountains and a dramatic sky. Perfectly captures the
+          tranquility and beauty of nature.
+        </p>
+        <div class="button">
+          <button>Read More</button>
+        </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
